@@ -7,20 +7,20 @@ We will use one month’s data as the test data set. Aim to maximize revenue in 
 
 ## Data Analysis
 - ```Training data``` 趨勢圖，```close```, ```open```, ```high```, ```low``` 
-<img src="https://github.com/LynnBlanco/AutoTrading/blob/81187bea8c687f371b8196738ccfbb6b71285123/images/Figure_1.png" width="600px"/>
+<img src="https://github.com/LynnBlanco/AutoTrading/blob/9f51f64136403744be4369e27a81fcd9ce83baf6/images/Figure_1.png" width="600px"/>
 
 - ```Testing data``` 趨勢圖，```close```, ```open```, ```high```, ```low```
-<img src="https://github.com/LynnBlanco/AutoTrading/blob/81187bea8c687f371b8196738ccfbb6b71285123/images/Figure_2.png" width="600px"/>
+<img src="https://github.com/LynnBlanco/AutoTrading/blob/9f51f64136403744be4369e27a81fcd9ce83baf6/images/Figure_2.png" width="600px"/>
 
 
 ## Model Training
 本次使用 ```LSTM``` 模型，LSTM 常用於預測帶有時間序列的資料。我們使用 ```open```, ```close``` 作為特徵來訓練模型，因為要預測的目標是20日的股票開盤價錢，所以我們在訓練時以每20筆訓練資料來預測1筆資料的方式進行。
 
 - Model summary
-<img src="https://github.com/LynnBlanco/AutoTrading/blob/81187bea8c687f371b8196738ccfbb6b71285123/images/Figure_5.png" width="500px"/>
+<img src="https://github.com/LynnBlanco/AutoTrading/blob/9f51f64136403744be4369e27a81fcd9ce83baf6/images/Figure_5.png" width="500px"/>
 
 - Predict
-<img src="https://github.com/LynnBlanco/AutoTrading/blob/81187bea8c687f371b8196738ccfbb6b71285123/images/Figure_4.png" width="600px"/>
+<img src="https://github.com/LynnBlanco/AutoTrading/blob/9f51f64136403744be4369e27a81fcd9ce83baf6/images/Figure_4.png" width="600px"/>
 
 
 ## Trader Strategy
